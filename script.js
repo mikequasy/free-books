@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const ebooksContainer = document.getElementById('ebooks-container');
-    const baseURL = "mikequasy.github.io/read/"; // Your base URL
+    const baseURL = "mikequasy.github.io/free-books/"; // Your base URL
 
     function displayErrorMessage(message) {
         ebooksContainer.innerHTML = `<p class="error-message">${message}</p>`;
