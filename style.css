@@ -45,8 +45,8 @@ header h1 {
 }
 
 .ebook-card img {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 250px;
     object-fit: cover;
     border-bottom: 1px solid #eee;
 }
