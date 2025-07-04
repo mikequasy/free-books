@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const imageUrl = `${baseURL}${ebook.image}`;
 
                 ebookCard.innerHTML = `
-                    <img width="20%" height="20%" src="${imageUrl}" alt="${ebook.title} Cover">
+                    <img src="${imageUrl}" alt="${ebook.title} Cover">
                     <div class="ebook-info">
                         <h2>${ebook.title}</h2>
                         <p>${ebook.description}</p>
